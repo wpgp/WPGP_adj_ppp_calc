@@ -18,7 +18,12 @@ Class can be instantiated and calculation done as follows:
 >> AdjPPPCalc(iso, in_raster, year, out_raster, adj_rate)
 
 iso:            str -> 3 character alpha country code (see WorldPop raster name)
+
 in_raster:      str -> path to input population raster
+
 year:           int/str -> 4 digit year of input population raster (2000-2020)
+
 out_raster:     str -> path to output adjusted raster
+
 n:              float -> rate at which to adjust raster
+
